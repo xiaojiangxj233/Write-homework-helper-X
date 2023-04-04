@@ -1,3 +1,4 @@
+简体中文 | [English](https://github.com/xiaojiangxj233/Write-homework-helper-X/blob/master/README-EN.md)
 # Write-homework-helper-X
 认真写作业（写作业帮助器）的C#和.net版本！
 ## 他有什么用？
