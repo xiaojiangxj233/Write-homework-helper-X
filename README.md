@@ -4,3 +4,7 @@
 没有用
 ## 怎么下载？
 目前请自行编译，或前往不怎么更新的[Releases](https://github.com/xiaojiangxj233/Write-homework-helper-X/releases)
+## 许可证
+[Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0.html)(禁止商用)
+## 使用的开源库
+[NAudio](https://github.com/naudio/NAudio)(MIT许可证)
