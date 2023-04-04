@@ -1,3 +1,4 @@
+[简体中文](https://github.com/xiaojiangxj233/Write-homework-helper-X/blob/master/README.md) | English
 # Write-homework-helper-X
 C# and .NET versions of Write Homework Helper!
 
