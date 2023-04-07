@@ -34,18 +34,13 @@ namespace Write_homework_helper_X
                 outputDevice.Play();
             }
         }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void button1_Click(object sender, EventArgs e)
         {
             if (outputDevice != null)
             {
                 outputDevice.Play();
             }
+            button1.Hide();
         }
 
         private void pauseButton_Click(object sender, EventArgs e)
@@ -54,6 +49,7 @@ namespace Write_homework_helper_X
             {
                 outputDevice.Pause();
             }
+            button1.Show();
         }
 
         private void stopButton_Click(object sender, EventArgs e)

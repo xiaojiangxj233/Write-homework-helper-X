@@ -59,9 +59,25 @@ namespace Write_homework_helper_X
             MessageBox.Show("制作：xiaojiang233\n帮助：ChatGPT", "关于");
         }
 
+        private void readbtn_Click(object sender, EventArgs e)
+        {
+
+            Form readFrom = new ReadForm();
+            readFrom.Show();
+
+
+        }
+
         private void morebtn_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("目前还没有更多功能捏", "更多功能", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            System.Diagnostics.Process.Start("explorer.exe", "https://www.bilibili.com/video/BV1GJ411x7h7/");
+
+        }
+
+        private void threebody_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("研究中");
+
         }
     }
 }

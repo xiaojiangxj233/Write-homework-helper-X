@@ -38,6 +38,8 @@
             setbtn = new Button();
             aboutbtn = new Button();
             morebtn = new Button();
+            threebody = new Button();
+            readbtn = new Button();
             SuspendLayout();
             // 
             // label1
@@ -98,7 +100,7 @@
             // playerbtn
             // 
             playerbtn.Font = new Font("Microsoft YaHei UI", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
-            playerbtn.Location = new Point(352, 246);
+            playerbtn.Location = new Point(145, 239);
             playerbtn.Name = "playerbtn";
             playerbtn.Size = new Size(225, 58);
             playerbtn.TabIndex = 5;
@@ -109,7 +111,7 @@
             // setbtn
             // 
             setbtn.Font = new Font("Microsoft YaHei UI", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
-            setbtn.Location = new Point(352, 310);
+            setbtn.Location = new Point(145, 303);
             setbtn.Name = "setbtn";
             setbtn.Size = new Size(225, 58);
             setbtn.TabIndex = 6;
@@ -120,7 +122,7 @@
             // aboutbtn
             // 
             aboutbtn.Font = new Font("Microsoft YaHei UI", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
-            aboutbtn.Location = new Point(352, 374);
+            aboutbtn.Location = new Point(145, 367);
             aboutbtn.Name = "aboutbtn";
             aboutbtn.Size = new Size(225, 58);
             aboutbtn.TabIndex = 7;
@@ -131,13 +133,35 @@
             // morebtn
             // 
             morebtn.Font = new Font("Microsoft YaHei UI", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
-            morebtn.Location = new Point(352, 438);
+            morebtn.Location = new Point(558, 367);
             morebtn.Name = "morebtn";
             morebtn.Size = new Size(225, 58);
-            morebtn.TabIndex = 8;
-            morebtn.Text = "更多功能";
+            morebtn.TabIndex = 11;
+            morebtn.Text = "更多";
             morebtn.UseVisualStyleBackColor = true;
             morebtn.Click += morebtn_Click;
+            // 
+            // threebody
+            // 
+            threebody.Font = new Font("Microsoft YaHei UI", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
+            threebody.Location = new Point(558, 303);
+            threebody.Name = "threebody";
+            threebody.Size = new Size(225, 58);
+            threebody.TabIndex = 10;
+            threebody.Text = "读三体二";
+            threebody.UseVisualStyleBackColor = true;
+            threebody.Click += threebody_Click;
+            // 
+            // readbtn
+            // 
+            readbtn.Font = new Font("Microsoft YaHei UI", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
+            readbtn.Location = new Point(558, 239);
+            readbtn.Name = "readbtn";
+            readbtn.Size = new Size(225, 58);
+            readbtn.TabIndex = 9;
+            readbtn.Text = "浏览器";
+            readbtn.UseVisualStyleBackColor = true;
+            readbtn.Click += readbtn_Click;
             // 
             // Form1
             // 
@@ -145,6 +169,8 @@
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(966, 543);
             Controls.Add(morebtn);
+            Controls.Add(threebody);
+            Controls.Add(readbtn);
             Controls.Add(aboutbtn);
             Controls.Add(setbtn);
             Controls.Add(playerbtn);
@@ -172,5 +198,7 @@
         public Button setbtn;
         public Button aboutbtn;
         public Button morebtn;
+        public Button threebody;
+        public Button readbtn;
     }
 }

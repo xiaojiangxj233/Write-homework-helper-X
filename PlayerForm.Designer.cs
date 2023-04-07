@@ -31,7 +31,6 @@
             openFileDialog = new OpenFileDialog();
             openButton = new Button();
             pauseButton = new Button();
-            label1 = new Label();
             button1 = new Button();
             stopButton = new Button();
             SuspendLayout();
@@ -54,7 +53,7 @@
             // pauseButton
             // 
             pauseButton.Font = new Font("Microsoft YaHei UI", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
-            pauseButton.Location = new Point(33, 195);
+            pauseButton.Location = new Point(33, 153);
             pauseButton.Name = "pauseButton";
             pauseButton.Size = new Size(208, 70);
             pauseButton.TabIndex = 4;
@@ -62,20 +61,10 @@
             pauseButton.UseVisualStyleBackColor = true;
             pauseButton.Click += pauseButton_Click;
             // 
-            // label1
-            // 
-            label1.AutoSize = true;
-            label1.Location = new Point(3, 85);
-            label1.Name = "label1";
-            label1.Size = new Size(43, 17);
-            label1.TabIndex = 5;
-            label1.Text = "label1";
-            label1.Click += label1_Click;
-            // 
             // button1
             // 
             button1.Font = new Font("Microsoft YaHei UI", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
-            button1.Location = new Point(33, 119);
+            button1.Location = new Point(33, 153);
             button1.Name = "button1";
             button1.Size = new Size(208, 70);
             button1.TabIndex = 6;
@@ -101,14 +90,12 @@
             ClientSize = new Size(273, 454);
             Controls.Add(stopButton);
             Controls.Add(button1);
-            Controls.Add(label1);
             Controls.Add(pauseButton);
             Controls.Add(openButton);
             MaximizeBox = false;
             Name = "PlayerForm";
             Text = "音乐播放器";
             ResumeLayout(false);
-            PerformLayout();
         }
 
         #endregion
@@ -116,7 +103,6 @@
         private OpenFileDialog openFileDialog;
         private Button openButton;
         private Button pauseButton;
-        private Label label1;
         private Button button1;
         private Button stopButton;
     }
